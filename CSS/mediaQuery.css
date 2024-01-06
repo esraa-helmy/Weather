@@ -13,3 +13,19 @@
 
    
   }
+  @media only screen and (max-width: 912px) {
+  
+    .cards{
+        width: 95%;
+        margin: auto;
+    }
+    .foot-form-container{
+        width: 100%;
+        margin: auto;
+    }
+    .social-links{
+        margin-top: 0 !important;
+    }
+
+   
+  }
