@@ -159,6 +159,7 @@ locationInputEl.addEventListener('keyup',()=>{
 
 
 let locality;
+let locate;
 function getLocation () {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
@@ -186,7 +187,10 @@ async function getDataLocation (geoCodingApi) {
     console.log(response)
     console.log(response.locality.toLowerCase())
     locality= response.locality
+    locate = response.city
+    console.log(locate)
     getData(locality.toLowerCase())
+    getData(locate.toLowerCase())
 
 }
 
