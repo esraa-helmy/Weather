@@ -9,6 +9,10 @@
         width: 90%;
         margin: auto;
     }
+    .num{
+        font-size: 1.875rem;
+        font-weight: 600;
+    }
     .foot-form-container{
         width: 100%;
         margin: auto;
