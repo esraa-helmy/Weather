@@ -60,7 +60,7 @@ function displayData(response){
         <p class="my-2 px-3 text-info">${response.current.condition.text}</p>
         <div class=" py-3 px-3 d-flex justify-content-between">
             <span class="fs-6"><i class="fa-solid fa-umbrella fs-5 pe-1"></i>${response.current.humidity}%</span>
-            <span class="fs-6"><i class="fa-solid fa-wind fs-5 pe-1"></i>${response.current.wind_degree}km/h</span>
+            <span class="fs-6"><i class="fa-solid fa-wind fs-5 pe-1"></i>${response.current.wind_kph}km/h</span>
             <span class="fs-6"><i class="fa-solid fa-compass fs-5 pe-1"></i>${response.current.wind_dir}</span>
 
         </div>
